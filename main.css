@@ -1,0 +1,67 @@
+body {
+    background-image: url(bg1.jpg);
+    display: grid;
+    height: 100%;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+
+.bg {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu',
+        sans-serif;
+}
+
+#title {
+    margin: 10px;
+    padding: 10px;
+}
+
+#info {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#name-label {
+    margin: 10px;
+    padding: 10px;
+}
+
+#email-label {
+    margin: 10px;
+    padding: 10px;
+}
+
+#number-label {
+    margin: 10px;
+    padding: 10px;
+}
+
+#time {
+    margin: 10px;
+    padding: 10px;
+}
+
+#lang {
+    margin: 10px;
+    padding: 10px;
+}
+
+.check-girl {
+    margin: 10px;
+    padding: 10px;
+}

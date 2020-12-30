@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="im1.jpg" />
+	<title>Programmer's Survey From</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<main class="bg">
+		<h1 id="title">Programmer's Survey From FCC</h1>
+		<p id="description">Thank You for you time to fill out this form :)</p>
+		<form id="survey-form">
+			<div id="info">
+				<label id="name-label" for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+				<label id="email-label" for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="Enter your Email" required>
+				<label id="number-label" for="number">Age(Optional)</label>
+				<input type="nummer" name="number" id="number" placeholder="Enter Your Age" min="10" max="100" required>
+			</div>
+
+			<div id="time">
+				<label> Which time are you most productive?</label>
+				<select id="dropdown">
+					<option disabled selected value>Select the time</option>
+					<option value="Morning">Morning</option>
+					<option value="Afternoon">Afternoon</option>
+					<option value="Evening">Evening</option>
+					<option value="Night">Night</option>
+				</select>
+			</div>
+
+			<div id="lang">
+				<p>Select Your Favourite Programming Language?</p>
+				<label for="name">Javascript
+					<input type="radio" name="name">
+				</label>
+				<label for="name">Python
+					<input type="radio" name="name">
+				</label>
+				<label for="name">C++
+					<input type="radio" name="name">
+				</label>
+			</div>
+
+			<div class="check-girl">
+				<p>What type of girls do you like?</p>
+				<label for="long">
+					<input type="checkbox" id="long" value="long">Long
+				</label>
+				<label for="short">
+					<input type="checkbox" id="short" value="short">Short
+				</label>
+				<label for="blonde">
+					<input type="checkbox" id="blonde" value="Blonde">Blonde
+				</label>
+			</div>
+
+			<label for="comments">Any Comments--</label>
+			<textarea id="comments" rows="4" cols="40"></textarea>
+			<button type="submit">Submit</button>
+		</form>
+	</main>
+</body>
+
+</html>
